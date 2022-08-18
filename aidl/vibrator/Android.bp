@@ -12,9 +12,8 @@ cc_library_shared {
         "libcutils",
         "libutils",
         "liblog",
-        "libqtivibratoreffect",
         "libbinder_ndk",
-        "android.hardware.vibrator-V1-ndk_platform",
+        "android.hardware.vibrator-V1-ndk",
     ],
     export_include_dirs: ["include"]
 }
@@ -36,7 +35,7 @@ cc_binary {
         "libutils",
         "libbase",
         "libbinder_ndk",
-        "android.hardware.vibrator-V1-ndk_platform",
+        "android.hardware.vibrator-V1-ndk",
         "vendor.qti.hardware.vibrator.impl.oplus",
     ],
 }
@@ -54,9 +53,8 @@ cc_library_shared {
         "libutils",
         "liblog",
         "libqtivibratoreffect",
-        "libqtivibratoreffectoffload",
         "libbinder_ndk",
-        "android.hardware.vibrator-V1-ndk_platform",
+        "android.hardware.vibrator-V1-ndk",
     ],
     export_include_dirs: ["include"],
 }
@@ -78,7 +76,7 @@ cc_binary {
         "libutils",
         "libbase",
         "libbinder_ndk",
-        "android.hardware.vibrator-V1-ndk_platform",
+        "android.hardware.vibrator-V1-ndk",
         "vendor.qti.hardware.vibrator.offload.impl.oplus",
     ],
 }
